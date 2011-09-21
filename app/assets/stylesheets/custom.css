@@ -1,0 +1,118 @@
+body
+{
+	background: #cecece;
+}
+
+.container{
+	width: 860px;
+}
+
+header{
+	padding-top: 20px;
+}
+header img{
+	padding: 1em;
+	background: White;
+}
+
+section{
+	margin-top: 1em;
+	font-size: 120%;
+	padding: 20px;
+	background: #fff;
+}
+
+a{
+	color: #09c;
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+	color: #069;
+}
+a:visited{
+	color: #069;
+}
+
+nav{
+	float: right;
+	background: #fff;
+	padding: 0 0.7em;
+	white-space: nowrap;
+}
+
+nav ul{
+	margin: 0;
+	padding: 0;
+}
+nav ul li{
+	list-style-type: none;
+	display: inline-block;
+	padding: 0.5em 0;	
+}
+nav ul li a{
+	padding: 0 15px;
+	font-weight: bold;
+}
+nav ul li a:hover{
+	color: #09c;
+	text-decoration: underline;
+}
+nav ul li a:visited{
+	color: #09c;
+}
+
+a.signup_button{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	text-align: center;
+	width: 220px;
+	color: #fff;
+	background: #003152;
+	font-size: 150%;
+	font-weight: bold;
+	padding: 25px;
+}
+.round{
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
+}
+.dropshadow{
+	box-shadow: 1px 2px 5px #c0c0c0;
+	-moz-box-shadow: 1px 2px 5px #c0c0c0;
+	-webkit-box-shadow: 1px 2px 5px #c0c0c0; 
+}
+
+footer{
+	text-align: center;
+	margin: auto;
+	margin-top: 20px;
+	width: 100%;
+}
+
+footer nav{
+	float: none;
+}
+
+table.profile{
+	width: 100%;
+	margin-bottom: 0;
+}
+
+td.main{
+	width: 70%;
+	padding: 1em;
+}
+
+td.sidebar{
+	width: 30%;
+	padding: 1em;
+	vertical-align: top;
+	background: #ffc;
+}
+.profile img.gravatar{
+	border: 1px solid #999;
+	margin-bottom: -15px;
+}
