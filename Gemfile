@@ -7,6 +7,7 @@ gem 'rails', '3.1.0'
 
 gem 'sqlite3'
 gem 'gravatar_image_tag'
+gem 'will_paginate'
 
 group :production do
   # gems specifically for Heroku go here
@@ -20,6 +21,7 @@ group :assets do
   gem 'sass-rails', "  ~> 3.1.0"
   gem 'coffee-rails', "~> 3.1.0"
   gem 'uglifier'
+  gem 'faker'
 end
 
 gem 'jquery-rails'
