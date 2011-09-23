@@ -15,6 +15,7 @@ class UsersController < ApplicationController
 	if @user.save
 		#Handle a successful save action
 		#/*flash[:success] = "Welcome to my Tweet App"*/
+		sign_in @user
 		redirect_to @user, :flash => { :success => "Welcome to my Tweet App!"}
 	else
 		@title = "Sign Up"
