@@ -25,6 +25,11 @@ module SessionsHelper
 	def current_user?(user)
 		current_user == user
 	end
+
+	def authenticate
+  		#flash[:notice] = "Please sign in to access this page"
+  		deny_access unless signed_in?
+  	end
 	
   	def deny_access
   		store_location
